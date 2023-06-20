@@ -16,7 +16,7 @@ class home extends StatefulWidget {
 class _homeState extends State<home> {
   int selectednavbar = 0;
 
-  final tabs = [dashboard(), listkonsultasi(), Profile()];
+  final tabs = [dashboard(), listkonsultasi(), ProfilePage()];
 
   void _changeSelectedNavBar(int index) {
     setState(() {
