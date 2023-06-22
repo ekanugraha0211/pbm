@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-
 import '../model/artikel.dart';
 import '../model/pakarpertanian.dart';
 import '../service.dart';
+import 'detail_pakar.dart';
 import 'list_artikel_details_screen.dart';
 import 'list_artikel_screen.dart';
 import 'list_pakarpertanian_screen.dart';
@@ -100,11 +100,11 @@ class _dashboardState extends State<dashboard> {
                             pakarpertanianlist[index];
                         return InkWell(
                             onTap: () => {
-                                  // Navigator.push(
-                                  //     context,
-                                  //     MaterialPageRoute(
-                                  //         builder: (context) =>
-                                  //             SecondRoute(pakarpertanian))),
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                          builder: (context) =>
+                                              ProfileScreen())),
                                 },
                             child: Card(
                               child: Container(
