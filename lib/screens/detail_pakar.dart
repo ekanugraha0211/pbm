@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:petani_kita/screens/input_konsultasi.dart';
 
 class ProfileScreen extends StatefulWidget {
   @override
@@ -93,6 +94,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => inputkonsul()));
+          // Tambahkan fungsi yang ingin Anda jalankan saat tombol ditekan
+        },
+        child: Icon(Icons.add),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }
