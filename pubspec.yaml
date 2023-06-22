@@ -43,6 +43,8 @@ dependencies:
   cross_file: ^0.3.3+4
   google_maps_flutter: ^1.2.0
   top_snackbar_flutter: ^3.0.0+1
+  path_provider: ^2.0.11
+  firebase_core: ^0.7.0
   # image_picker: ^0.8.9
   # http: ^0.13.1
 

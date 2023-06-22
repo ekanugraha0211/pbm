@@ -97,7 +97,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => inputkonsul()));
+              context, MaterialPageRoute(builder: (context) => Inputkonsul()));
           // Tambahkan fungsi yang ingin Anda jalankan saat tombol ditekan
         },
         child: Icon(Icons.add),

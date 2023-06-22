@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-class inputkonsul extends StatefulWidget {
+class Inputkonsul extends StatefulWidget {
   @override
   _inputkonsulState createState() => _inputkonsulState();
 }
 
-class _inputkonsulState extends State<inputkonsul> {
+class _inputkonsulState extends State<Inputkonsul> {
   String _inputText = '';
   String _selectedImagePath = '';
 

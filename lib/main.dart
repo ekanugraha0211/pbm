@@ -1,4 +1,6 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:petani_kita/firebase_options.dart';
 import 'package:petani_kita/screens/home.dart';
 import 'package:petani_kita/screens/login/LoginScreens.dart';
 import 'screens/list_artikel_screen.dart';

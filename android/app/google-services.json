@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "39040146637",
+    "project_id": "petani-kita-eee10",
+    "storage_bucket": "petani-kita-eee10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39040146637:android:1721b65d15530527a5dd84",
+        "android_client_info": {
+          "package_name": "com.example.petani_kita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39040146637-90lhdk9p2i0bq0vvphne23gaqi894t1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyz7hqz_HNq22D40BR7Ophovg2qU9GLK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39040146637-90lhdk9p2i0bq0vvphne23gaqi894t1b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "39040146637-fv36jhf8kp6bg3lodtl5p6s5hoft5ndl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.petaniKita"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

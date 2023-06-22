@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:petani_kita/screens/profile.dart';
 
+import 'artikel.dart';
 import 'dash.dart';
 import 'list_konsultasi_screen.dart';
 
@@ -16,7 +17,7 @@ class home extends StatefulWidget {
 class _homeState extends State<home> {
   int selectednavbar = 0;
 
-  final tabs = [dashboard(), listkonsultasi(), ProfilePage()];
+  final tabs = [dashboard(), listkonsultasi(), ProfilePage(), about()];
 
   void _changeSelectedNavBar(int index) {
     setState(() {
@@ -40,8 +41,10 @@ class _homeState extends State<home> {
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: "home"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.document_scanner_outlined), label: "home"),
-            BottomNavigationBarItem(icon: Icon(Icons.person), label: "home"),
+                icon: Icon(Icons.document_scanner_outlined),
+                label: "konsultasi"),
+            BottomNavigationBarItem(icon: Icon(Icons.person), label: "profil"),
+            BottomNavigationBarItem(icon: Icon(Icons.article), label: "profil"),
           ],
         ));
   }
